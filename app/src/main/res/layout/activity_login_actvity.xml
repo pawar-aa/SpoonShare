@@ -4,48 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#eae2b7"
     tools:context=".LoginActvity">
 
-    <ImageView
-        android:layout_width="300sp"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/applogo"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@id/et_email"/>
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
 
-    <EditText
-        android:id="@+id/et_email"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="300sp"
+            android:layout_height="200sp"
+            android:src="@drawable/pic2" />
 
-    <EditText
-        android:id="@+id/et_pass"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/et_email"
-        android:layout_marginTop="16dp"/>
+        <TextView
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="#003049"/>
 
-    <Button
-        android:id="@+id/login_button"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:text="Login"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/et_pass"
-        android:layout_marginTop="16dp"/>
 
-    <Button
-        android:id="@+id/register_navigation_button"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:text="Register"
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20sp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/et_email"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Login Now"
+            android:backgroundTint="#d62828"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/register_navigation_button"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Register"
+            android:backgroundTint="#d62828"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© SpoonShare 2024"
+        android:textColor="#003049"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/login_button"
-        android:layout_marginTop="16dp"/>
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20sp"/>
 </RelativeLayout>

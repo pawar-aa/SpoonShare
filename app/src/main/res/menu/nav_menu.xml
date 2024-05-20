@@ -19,6 +19,6 @@
         tools:ignore="MenuTitle" />
     <item
         android:id="@+id/profile"
-        android:icon="@drawable/ic_profile"
+        android:icon="@drawable/pic2"
         tools:ignore="MenuTitle" />
 </menu>

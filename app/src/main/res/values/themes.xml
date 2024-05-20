@@ -2,8 +2,10 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.SpoonShare" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#000000</item>
     </style>
 
-    <style name="Theme.SpoonShare" parent="Base.Theme.SpoonShare" />
+    <style name="Theme.SpoonShare" parent="Base.Theme.SpoonShare">
+        <item name="colorPrimary">#000000</item>
+    </style>
 </resources>
