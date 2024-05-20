@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "944144393967",
+    "project_id": "spoonshare-77e16",
+    "storage_bucket": "spoonshare-77e16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944144393967:android:0ab2882d59b854ec7d5d1a",
+        "android_client_info": {
+          "package_name": "com.aashay.spoonshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944144393967-5fu1n2f88nv5vq68ca32rl1va17raukl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO2PUYRu9n8rRZpRhhsS889jzLUOjBvHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944144393967-5fu1n2f88nv5vq68ca32rl1va17raukl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
