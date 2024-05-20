@@ -4,7 +4,6 @@
 
 ❤️ App that bridges donors and receipents, connecting the gap in food distribution supply chain
 
-
 <p align="center">
   <img src="https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34" alt="Firebase">
   <img src="https://img.shields.io/badge/android%20studio-346ac1?style=for-the-badge&logo=android%20studio&logoColor=white" alt="Android Studio">
@@ -14,6 +13,8 @@
   <img src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
 </p>
 
+<br><br>
+
 ## Tech Stack
 
 **Frontend:** Material Design, XML
@@ -22,6 +23,13 @@
 
 **Storage:** Firebase, SQLite
 
+<br><br>
+
+## App Mockups
+
+<img src="https://github.com/pawar-aa/assets/blob/main/SpoonshareMockups.png">
+
+<br><br>
 
 ## Contributors
 
@@ -29,6 +37,7 @@
 
 [![Outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:pawar.aa@northeastern.edu)
 
+<br><br>
 
 ## License
 <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge" alt="MIT License">
